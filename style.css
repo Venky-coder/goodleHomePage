@@ -1,0 +1,106 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+
+#nav{
+	display: flex;
+    justify-content:flex-end;
+    padding-right: 5em;
+    padding-top: 1em;
+}
+
+#Gmail{
+	text-decoration: none;
+	padding-right: 2em;
+	color: black;
+}
+
+#Images{
+	text-decoration: none;
+	padding-right: 2em;
+	color: black;
+}
+
+#more{
+     width: 3vw;
+     height: 3vh;
+     padding-right: 2em;
+}
+
+#Sign{
+	background-color: rgb(51, 102, 255);
+	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.google-block{
+	    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#form{
+	display: flex;
+	box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 1px 2px rgb(0 0 0 / 23%);
+	border-radius: 30px;
+	width: 100%;
+}
+input:focus{
+	outline: 0;
+}
+.fa-search{
+	border: none;
+    position: relative;
+    padding-inline-end: 20px;
+    padding-inline-start: 20px;
+    display: flex;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+#input{
+	background-color: white;
+	border: none;
+	font-size: 16px;
+    height: 3em;
+    width: 100%;
+    margin-left: 0rem;
+    display: flex;
+    padding-inline-end: 40px;
+    padding-inline-start: 52px;
+    position: relative;
+}
+
+.fa-microphone{
+	margin-left: 0rem;
+	border: none;
+	position: relative;
+	padding-inline-end: 20px;
+    padding-inline-start: 20px;
+    display: flex;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px; 
+    justify-content: center;
+    align-items: center;
+}
+
+#custom{ 
+	background-color: white;
+	color: rgb(51, 102, 255);
+	border-radius: 50px;
+	position:absolute;
+    bottom: 1.5em;
+    right: 1.5em;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 1px 2px rgb(0 0 0 / 23%);
+    font-weight: 400;
+    min-width: 32px;
+}
